@@ -1,0 +1,35 @@
+.botao-pulsar .elementor-button {
+    animation: pulsar 2s infinite;
+}
+
+.botao-pulsar .elementor-button:hover {
+    animation: none;
+}
+
+
+@keyframes pulsar {
+  0% {
+      -moz-box-shadow: 0 0 0 0 rgba(0,0,0, 0.5);
+      box-shadow: 0 0 0 0 rgba(0,0,0, 0.4);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 8px rgba(0,0,0, 0);
+      box-shadow: 0 0 0 8px rgba(0,0,0, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(0,0,0, 0);
+      box-shadow: 0 0 0 0 rgba(0,0,0, 0);
+  }
+}
+
+@-webkit-keyframes pulsar {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0,0,0, 0.5);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 8px rgba(0,0,0, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0,0,0, 0);
+  }
+}
